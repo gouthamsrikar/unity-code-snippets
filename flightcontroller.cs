@@ -51,6 +51,16 @@ public class flyup : MonoBehaviour
         { transform.Translate(Vector3.up * moveSpeed * Time.deltaTime, Space.Self);
             y = 0;
         }
+        
+         if (x >0)
+        { transform.Translate(Vector3.right * moveSpeed * Time.deltaTime,Space.Self );
+            y = 0;
+        }
+        else if(y<0)
+        { transform.Translate(Vector3.left * moveSpeed * Time.deltaTime, Space.Self);
+            y = 0;
+        }
+        
 
     }
 }
