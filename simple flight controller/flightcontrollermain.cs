@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flightcontroller : MonoBehaviour
+public class flightcontrollermain : MonoBehaviour
 {
     public moveup jumpb;
     public moveup jumpa;
