@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
 
-public class jump : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
+public classliftbutton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [HideInInspector]
     public bool Pressed;
